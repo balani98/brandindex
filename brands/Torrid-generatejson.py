@@ -83,6 +83,8 @@ for filter in filters:
     for brand in brands:
         if DMAs:
             for dma in DMAs:
+                # deepcopy in order to retain original filters
+                # without polluting from each DMA specific append below
                 _filters_dma = copy.deepcopy(_filters)
                 query = {}
                 _filters_dma.append(
