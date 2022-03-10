@@ -12,6 +12,7 @@
 | -- | -- | -- | -- | -- |
 | torrid | xxx | xxx | yes | [link](https://github.com/CrossmediaHQ/xm-brandindex-v1/blob/main/brands/Torrid-generatejson.py) |
 | ll flooring | xxx | xxx | yes | [link](https://github.com/CrossmediaHQ/xm-brandindex-v1/blob/main/brands/LLFlooring-generatejson.py) |
+| Empower | xxx | xxx | yes | [link](https://github.com/CrossmediaHQ/xm-brandindex-v1/blob/main/brands/Empower_generatejson.py) |
 
 
 ## AWS Lambda deployment
