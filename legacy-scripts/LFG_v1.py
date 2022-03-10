@@ -10,8 +10,8 @@ import time
 EMAIL = "YGAPI@xmedia.com"
 PASSWORD = "YouGov123"
 today = date.today()
-END_DATE = (today - timedelta(days=1)).strftime("%Y-%m-%d")         #'2021-11-30' 
-START_DATE = (today - relativedelta(months=1)).strftime("%Y-%m-%d") #'2021-11-01'
+END_DATE = (today - timedelta(days=1)).strftime("%Y-%m-%d")  #'2021-11-30'
+START_DATE = (today - relativedelta(months=1)).strftime("%Y-%m-%d")  #'2021-11-01'
 OUTPUT_NAME = "BrandIndex_LFG_{}".format(
     datetime.strptime(END_DATE, "%Y-%m-%d").strftime("%b%y")
 )
@@ -301,4 +301,3 @@ df["Demo"] = np.where(df["Demo"] == "Old Aspirers", "Older Aspirers", df["Demo"]
 bi.send_to_s3(df, S3_BUCKET, S3_KEY)
 
 print("File Uploaded Successfully!")
-
