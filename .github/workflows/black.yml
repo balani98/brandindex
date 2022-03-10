@@ -9,12 +9,19 @@ on:
       - '**' # all branches
 
 jobs:
-  lint:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: psf/black@stable
-      - name: if failure, commit black changes
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: installing black
+        run: pip install black
+      - name: running black --check .
+        run: black --check .
+      - name: failure, running black and committing changes
         if: failure()
         run: |
           black .
