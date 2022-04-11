@@ -5,6 +5,7 @@ import copy
 analysisid = "TorridAnalysis"
 
 moving_average = 56
+dma_specific_moving_average = 112
 scoring = "total"
 metrics_score_types = '{"index": "net_score","buzz": "net_score","impression": "net_score","quality": "net_score","value": "net_score","reputation": "net_score","satisfaction": "net_score","recommend": "net_score","aided": "net_score","attention": "net_score","adaware": "net_score","wom": "net_score","consider": "net_score","likelybuy": "net_score","current_own": "net_score","former_own": "net_score"}'
 date_period = '{"end_date": {"date": "###end_date###"},"start_date": {"date": "###start_date###"}}'
@@ -18,6 +19,12 @@ brands = [
     {"brand_id": 1005299, "region": "us", "sector_id": 9},
     {"brand_id": 1005297, "region": "us", "sector_id": 9},
     {"brand_id": 1001886, "region": "us", "sector_id": 9},
+    {"brand_id": 14010, "region": "us", "sector_id": 14},
+    {"brand_id": 10016, "region": "us", "sector_id": 10},
+    {"brand_id": 9023, "region": "us", "sector_id": 9},
+    {"brand_id": 10003, "region": "us", "sector_id": 10},
+    {"brand_id": 9014, "region": "us", "sector_id": 9},
+    {"brand_id": 14012, "region": "us", "sector_id": 14},
 ]
 
 filters = [
@@ -69,6 +76,10 @@ DMAs = {
     "Austin TX": "40",
     "Minneapolis-St. Paul MN": "15",
     "San Antonio, TX": "36",
+    "Cincinnati, OH": "35",
+    "Pittsburgh, PA": "23",
+    "Charlotte, NC": "25",
+    "Raleigh-Durham, NC": "24",
 }
 
 basejson = '{"data": {"id": "##analysisid##","queries":[], "scoring": "total"},"meta":{"version": "v1"}}'
@@ -83,8 +94,6 @@ for filter in filters:
     for brand in brands:
         if DMAs:
             for dma in DMAs:
-                # deepcopy in order to retain original filters
-                # without polluting from each DMA specific append below
                 _filters_dma = copy.deepcopy(_filters)
                 query = {}
                 _filters_dma.append(
@@ -100,7 +109,7 @@ for filter in filters:
                 entity["sector_id"] = sector_id
                 query["entity"] = entity
                 query["filters"] = _filters_dma
-                query["moving_average"] = moving_average
+                query["moving_average"] = dma_specific_moving_average
                 query["period"] = json.loads(date_period)
                 query["metrics_score_types"] = json.loads(metrics_score_types)
                 queries.append(query)
@@ -140,5 +149,5 @@ for filter in filters:
 final_json = json.loads(basejson)
 final_json["data"]["queries"] = queries
 
-with open("Torrid.json", "w") as f:
+with open("path_to\\Torrid.json", "w") as f:
     json.dump(final_json, f)
