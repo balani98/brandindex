@@ -11,49 +11,42 @@ metrics_score_types = '{"index": "net_score","buzz": "net_score","impression": "
 date_period = '{"end_date": {"date": "###end_date###"},"start_date": {"date": "###start_date###"}}'
 
 brands = [
-    {"brand_id": 27021, "region": "us", "sector_id": 27},  
-    {"brand_id": 27024, "region": "us", "sector_id": 27}, 
-    {"brand_id": 27009, "region": "us", "sector_id": 27},  
-    
+    {"brand_id": 27021, "region": "us", "sector_id": 27},
+    {"brand_id": 27024, "region": "us", "sector_id": 27},
+    {"brand_id": 27009, "region": "us", "sector_id": 27},
     {"brand_id": 1000341, "region": "us", "sector_id": 27},
-    {"brand_id": 1001310, "region": "us", "sector_id": 27}, 
+    {"brand_id": 1001310, "region": "us", "sector_id": 27},
     {"brand_id": 1001752, "region": "us", "sector_id": 27},
-    
-    {"brand_id": 1002056, "region": "us", "sector_id": 27},  
-    {"brand_id": 1003688, "region": "us", "sector_id": 27}, 
-    {"brand_id": 1003755, "region": "us", "sector_id": 27}, 
-    
-    {"brand_id": 1004059, "region": "us", "sector_id": 27},  
-    {"brand_id": 25018, "region": "us", "sector_id": 25}, 
-    {"brand_id": 25013, "region": "us", "sector_id": 25}, 
-    
-    {"brand_id": 25016, "region": "us", "sector_id": 25},  
-    {"brand_id": 25019, "region": "us", "sector_id": 25}, 
+    {"brand_id": 1002056, "region": "us", "sector_id": 27},
+    {"brand_id": 1003688, "region": "us", "sector_id": 27},
+    {"brand_id": 1003755, "region": "us", "sector_id": 27},
+    {"brand_id": 1004059, "region": "us", "sector_id": 27},
+    {"brand_id": 25018, "region": "us", "sector_id": 25},
+    {"brand_id": 25013, "region": "us", "sector_id": 25},
+    {"brand_id": 25016, "region": "us", "sector_id": 25},
+    {"brand_id": 25019, "region": "us", "sector_id": 25},
     {"brand_id": 25003, "region": "us", "sector_id": 25},
-         
-    {"brand_id": 25017, "region": "us", "sector_id": 25},  
-    {"brand_id": 25021, "region": "us", "sector_id": 25}, 
+    {"brand_id": 25017, "region": "us", "sector_id": 25},
+    {"brand_id": 25021, "region": "us", "sector_id": 25},
     {"brand_id": 25004, "region": "us", "sector_id": 25},
-    
-    {"brand_id": 25011, "region": "us", "sector_id": 25},  
-    {"brand_id": 25007, "region": "us", "sector_id": 25}, 
+    {"brand_id": 25011, "region": "us", "sector_id": 25},
+    {"brand_id": 25007, "region": "us", "sector_id": 25},
     {"brand_id": 27026, "region": "us", "sector_id": 25},
-    
-    {"brand_id": 27015, "region": "us", "sector_id": 25},  
-    {"brand_id": 1001136, "region": "us", "sector_id": 25}, 
+    {"brand_id": 27015, "region": "us", "sector_id": 25},
+    {"brand_id": 1001136, "region": "us", "sector_id": 25},
     {"brand_id": 1001172, "region": "us", "sector_id": 25},
-    
-    {"brand_id": 1003515, "region": "us", "sector_id": 25},  
+    {"brand_id": 1003515, "region": "us", "sector_id": 25},
     {"brand_id": 1003770, "region": "us", "sector_id": 25},
     {"brand_id": 1003770, "region": "us", "sector_id": 25},
     {"brand_id": 1005729, "region": "us", "sector_id": 25},
-    
 ]
 
 filters = [
     {
         "segment": "Total Population",
-        "filters": [{ "expression":"bixdemo_gender in [1, 2]"},],
+        "filters": [
+            {"expression": "bixdemo_gender in [1, 2]"},
+        ],
     },
 ]
 
@@ -127,5 +120,8 @@ for filter in filters:
 final_json = json.loads(basejson)
 final_json["data"]["queries"] = queries
 final_json
-with open("C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\\BrandIndex Crossmedia\XMedia\\BrandIndex_LFG\\LFG_datapipeline2\\LFG_dp2brands01.json", "w") as f:
+with open(
+    "C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\\BrandIndex Crossmedia\XMedia\\BrandIndex_LFG\\LFG_datapipeline2\\LFG_dp2brands01.json",
+    "w",
+) as f:
     json.dump(final_json, f)

@@ -12,39 +12,31 @@ metrics_score_types = '{"index": "net_score","buzz": "net_score","impression": "
 date_period = '{"end_date": {"date": "###end_date###"},"start_date": {"date": "###start_date###"}}'
 
 brands = [
-  {"brand_id": 27021, "region": "us", "sector_id": 27},  
-    {"brand_id": 27024, "region": "us", "sector_id": 27}, 
-    {"brand_id": 27009, "region": "us", "sector_id": 27},  
-    
+    {"brand_id": 27021, "region": "us", "sector_id": 27},
+    {"brand_id": 27024, "region": "us", "sector_id": 27},
+    {"brand_id": 27009, "region": "us", "sector_id": 27},
     {"brand_id": 1000341, "region": "us", "sector_id": 27},
-    {"brand_id": 1001310, "region": "us", "sector_id": 27}, 
+    {"brand_id": 1001310, "region": "us", "sector_id": 27},
     {"brand_id": 1001752, "region": "us", "sector_id": 27},
-    
-    {"brand_id": 1002056, "region": "us", "sector_id": 27},  
-      {"brand_id": 1003688, "region": "us", "sector_id": 27}, 
-    {"brand_id": 1003755, "region": "us", "sector_id": 27}, 
-    
-    {"brand_id": 1004059, "region": "us", "sector_id": 27},  
-    {"brand_id": 25018, "region": "us", "sector_id": 25}, 
-    {"brand_id": 25013, "region": "us", "sector_id": 25}, 
-    
-    {"brand_id": 25016, "region": "us", "sector_id": 25},  
-    {"brand_id": 25019, "region": "us", "sector_id": 25}, 
+    {"brand_id": 1002056, "region": "us", "sector_id": 27},
+    {"brand_id": 1003688, "region": "us", "sector_id": 27},
+    {"brand_id": 1003755, "region": "us", "sector_id": 27},
+    {"brand_id": 1004059, "region": "us", "sector_id": 27},
+    {"brand_id": 25018, "region": "us", "sector_id": 25},
+    {"brand_id": 25013, "region": "us", "sector_id": 25},
+    {"brand_id": 25016, "region": "us", "sector_id": 25},
+    {"brand_id": 25019, "region": "us", "sector_id": 25},
     {"brand_id": 25003, "region": "us", "sector_id": 25},
-         
-    {"brand_id": 25017, "region": "us", "sector_id": 25},  
-    {"brand_id": 25021, "region": "us", "sector_id": 25}, 
+    {"brand_id": 25017, "region": "us", "sector_id": 25},
+    {"brand_id": 25021, "region": "us", "sector_id": 25},
     {"brand_id": 25004, "region": "us", "sector_id": 25},
-    
-    {"brand_id": 25011, "region": "us", "sector_id": 25},  
-    {"brand_id": 25007, "region": "us", "sector_id": 25}, 
+    {"brand_id": 25011, "region": "us", "sector_id": 25},
+    {"brand_id": 25007, "region": "us", "sector_id": 25},
     {"brand_id": 27026, "region": "us", "sector_id": 25},
-    
-    {"brand_id": 27015, "region": "us", "sector_id": 25},  
-    {"brand_id": 1001136, "region": "us", "sector_id": 25}, 
+    {"brand_id": 27015, "region": "us", "sector_id": 25},
+    {"brand_id": 1001136, "region": "us", "sector_id": 25},
     {"brand_id": 1001172, "region": "us", "sector_id": 25},
-    
-    {"brand_id": 1003515, "region": "us", "sector_id": 25},  
+    {"brand_id": 1003515, "region": "us", "sector_id": 25},
     {"brand_id": 1003770, "region": "us", "sector_id": 25},
     {"brand_id": 1005729, "region": "us", "sector_id": 25},
 ]
@@ -52,19 +44,35 @@ brands = [
 filters = [
     {
         "segment": "Affluent Seekers 50-69",
-        "filters": [{"expression":"(profiles_us__pdl_totalassets_excl_home in [7, 8, 9, 10, 11] and bixdemo_agegranular in [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52])"},],
+        "filters": [
+            {
+                "expression": "(profiles_us__pdl_totalassets_excl_home in [7, 8, 9, 10, 11] and bixdemo_agegranular in [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52])"
+            },
+        ],
     },
     {
         "segment": "Affluent Aspirers 30-49",
-        "filters": [{"expression":"(bixdemo_agegranular in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32] and (profiles_us__pdl_profile_gross_household in [11, 12, 13, 14, 15, 16] or profiles_us__pdl_totalassets_excl_home in [7, 8, 9, 10, 11]))"},],
+        "filters": [
+            {
+                "expression": "(bixdemo_agegranular in [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32] and (profiles_us__pdl_profile_gross_household in [11, 12, 13, 14, 15, 16] or profiles_us__pdl_totalassets_excl_home in [7, 8, 9, 10, 11]))"
+            },
+        ],
     },
     {
         "segment": "Mass Middle Aspirers 25-44",
-        "filters": [{"expression":"(profiles_us__pdl_totalassets_excl_home in [1, 2, 3, 4, 5, 6] and profiles_us__pdlc_age_banded in [2, 3] and profiles_us__pdl_profile_gross_household in [7, 8, 9, 10, 11, 12, 13, 14, 15, 16])"},],
+        "filters": [
+            {
+                "expression": "(profiles_us__pdl_totalassets_excl_home in [1, 2, 3, 4, 5, 6] and profiles_us__pdlc_age_banded in [2, 3] and profiles_us__pdl_profile_gross_household in [7, 8, 9, 10, 11, 12, 13, 14, 15, 16])"
+            },
+        ],
     },
     {
         "segment": "Mass Middle Aspirers 45+",
-        "filters": [{"expression":"(profiles_us__pdl_profile_gross_household in [7, 8, 9, 10, 11, 12, 13, 14, 15, 16] and profiles_us__pdl_totalassets_excl_home in [1, 2, 3, 4, 5, 6] and bixdemo_agegranular in [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53])"},],
+        "filters": [
+            {
+                "expression": "(profiles_us__pdl_profile_gross_household in [7, 8, 9, 10, 11, 12, 13, 14, 15, 16] and profiles_us__pdl_totalassets_excl_home in [1, 2, 3, 4, 5, 6] and bixdemo_agegranular in [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53])"
+            },
+        ],
     },
 ]
 
@@ -138,5 +146,8 @@ for filter in filters:
 final_json = json.loads(basejson)
 final_json["data"]["queries"] = queries
 final_json
-with open("C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\\BrandIndex Crossmedia\\LFG_dp2brands03.json", "w") as f:
+with open(
+    "C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\\BrandIndex Crossmedia\\LFG_dp2brands03.json",
+    "w",
+) as f:
     json.dump(final_json, f)
