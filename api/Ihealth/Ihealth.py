@@ -6,13 +6,15 @@ import configparser
 import ast
 import pandas as pd
 import io
-#import boto3
+
+# import boto3
 from BIConnector import *
 from helper import *
 import time
 
 wait_time_each_api_call_in_sec = 30
 max_queries_single_go = 100
+
 
 def configurations_variable():
     config_json = {}
@@ -22,7 +24,8 @@ def configurations_variable():
     config_json["BRANDSINDEX_BRANDS"] = Config.get("BRANDS", "BRANDSINDEX_BRANDS")
     return config_json
 
-event=None
+
+event = None
 context = "local"
 response = ""
 brands_executed_successfully = ""
@@ -35,17 +38,15 @@ if context == "local":
 # Calling brandindex_api_data function. Provide currentdate-1 as function parameter.
 output_status_message("BrandIndex API pull started")
 
-#end_date = datetime.date.today() - datetime.timedelta(days=1)
-#start_date = datetime.date.today() - datetime.timedelta(days=7)
+# end_date = datetime.date.today() - datetime.timedelta(days=1)
+# start_date = datetime.date.today() - datetime.timedelta(days=7)
 
 
 end_date = datetime.date(2024, 1, 2)
 start_date = datetime.date(2024, 1, 1)
 
 output_status_message(
-    "start date and end date for this run are {} and {}".format(
-        start_date, end_date
-    )
+    "start date and end date for this run are {} and {}".format(start_date, end_date)
 )
 
 configs = configurations_variable()
@@ -72,7 +73,7 @@ for region in regions:
 df_all_sectors = pd.DataFrame(all_sectors)
 
 brands = ast.literal_eval(configs["BRANDSINDEX_BRANDS"])
-#s3 = boto3.client("s3")
+# s3 = boto3.client("s3")
 
 for brand_item in brands:
     brand_data = json.loads(str(brand_item))
@@ -82,14 +83,12 @@ for brand_item in brands:
     has_dma = brand_data["has_dma"]
     has_sub_region = brand_data["has_sub_region"]
     volumn_percent = brand_data["volumn_percent"]
-    
-    
+
+
 query_index = {}
 sectors_and_regions = []
 
-output_status_message(
-    "Running brand index analysis for the brand : {}".format(brand)
-)
+output_status_message("Running brand index analysis for the brand : {}".format(brand))
 path1 = "C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\\BrandIndex Crossmedia\\BrandIndex_Ihealth\\"
 with open(path1 + "Ihealth.json", "r") as f:
     content = f.read()
@@ -118,9 +117,7 @@ sectors_and_regions = sectors_and_regions.drop_duplicates(
 sector_brands = []
 df_sector_brands = pd.DataFrame()
 for index, row in sectors_and_regions.iterrows():
-    output_status_message(
-        "Getting brands for sector {}".format(row["sector_id"])
-    )
+    output_status_message("Getting brands for sector {}".format(row["sector_id"]))
     sectrs = get_brands(session, row["sector_id"], row["region"])
     sec_data = sectrs.json()["data"]
     for attribute in sec_data:
@@ -138,22 +135,16 @@ for queries in chunks(total_queries, max_queries_single_go):
     time.sleep(wait_time_each_api_call_in_sec)
     data["data"]["queries"] = queries
     response = run_analysis(session, data)
-    
-    temp_frame = pd.read_csv(
-        io.StringIO(response.content.decode("utf-8"))
-    )
-    df = pd.concat([df,temp_frame])
+
+    temp_frame = pd.read_csv(io.StringIO(response.content.decode("utf-8")))
+    df = pd.concat([df, temp_frame])
 
 output_status_message(
-    "Successfully ran brand index analysis for the brand : {}".format(
-        brand
-    )
+    "Successfully ran brand index analysis for the brand : {}".format(brand)
 )
 
-print('deepanshu',df)
-df = enrich_data_frame(
-    df, query_index, df_all_sectors, df_sector_brands, has_dma
-)
+print("deepanshu", df)
+df = enrich_data_frame(df, query_index, df_all_sectors, df_sector_brands, has_dma)
 
 
 if is_roll_up == "true":
@@ -165,17 +156,15 @@ if has_dma == "true":
 if has_sub_region == "true":
     df[["segment", "geo"]] = df["segment"].str.split("|", expand=True)
 
-if volumn_percent=="true":
+if volumn_percent == "true":
     df = sentiment_percentage_cols(df)
-    print('dataframe', df)
+    print("dataframe", df)
 
 if execute_local:
     outputname = "{brand}_{start_date}_{end_date}.csv".format(
         brand=brand, start_date=start_date, end_date=end_date
     )
-    df.to_csv(path1  + "data\\" +  outputname, index=False)
-    #df.to_csv(path1 +"invesco_wrapper_df1.csv", index=False)
+    df.to_csv(path1 + "data\\" + outputname, index=False)
+    # df.to_csv(path1 +"invesco_wrapper_df1.csv", index=False)
 else:
     csv_buffer = io.StringIO()
-
-
