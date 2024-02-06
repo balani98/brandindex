@@ -38,13 +38,9 @@ def lambda_handler(event, context):
     output_status_message("BrandIndex API pull started")
     try:
         end_date = datetime.date.today() - datetime.timedelta(days=1)
-        start_date = end_date.replace(day=1)
-
-        # end_date = datetime.date(2023, 8, 31)
-        # start_date = datetime.date(2023, 8, 1)
+        start_date = datetime.date.today() - datetime.timedelta(days=7)
         # end_date = datetime.strptime(event['end_date'], "%Y/%m/%d").date()
         # start_date = datetime.strptime(event['start_date'], "%Y/%m/%d").date()
-
         output_status_message(
             "start date and end date for this run are {} and {}".format(
                 start_date, end_date
@@ -84,7 +80,6 @@ def lambda_handler(event, context):
                 has_dma = brand_data["has_dma"]
                 has_sub_region = brand_data["has_sub_region"]  ########
                 volumn_percent = brand_data["volumn_percent"]  ########
-                brand_aggregation = brand_data["brand_aggregation"]  ########
 
                 query_moving_average = {}
                 sectors_and_regions = []
@@ -179,31 +174,10 @@ def lambda_handler(event, context):
                         brand
                     )
                 )
+
                 df = enrich_data_frame(
                     df, query_moving_average, df_all_sectors, df_sector_brands, has_dma
                 )
-                if brand_aggregation == "true":
-                    df_renamed = df.replace(
-                        to_replace=[
-                            "Wells Fargo",
-                            "Chase",
-                            "Citibank",
-                            "Bank of America",
-                            "Capital One Bank",
-                            "PNC Bank",
-                            "US Bank",
-                        ],
-                        value="Large Competitive Set",
-                        inplace=False,
-                    )
-                    df_renamed = df_renamed.replace(
-                        to_replace=["Fifth-Third", "Truist", "Regions Bank"],
-                        value="Small Competitive Set",
-                        inplace=False,
-                    )
-                    df_aggregated = aggregate_brands(df_renamed)
-                    df = pd.concat([df, df_aggregated])
-                    df = rename_usbank_health_columns(df)
 
                 if is_roll_up == "true":
                     df = aggregate_weekly(df)
