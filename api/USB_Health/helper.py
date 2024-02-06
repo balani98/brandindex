@@ -1,11 +1,12 @@
-#import boto3
+# import boto3
 import json
 import pandas as pd
 import io
 from BIConnector import *
 
+
 def aggregate_brands(df):
-    #df["date"] = min(df["date"])
+    # df["date"] = min(df["date"])
     df["date"] = min(df["date"])
     df = (
         df.groupby(
@@ -18,8 +19,8 @@ def aggregate_brands(df):
                 "sector_id",
                 "segment",
                 "moving_average",
-                "metric"
-              ]
+                "metric",
+            ]
         )
         .agg(
             {
@@ -35,7 +36,6 @@ def aggregate_brands(df):
         .reset_index()
     )
     return df
-
 
 
 def aggregate_weekly(df):
@@ -100,11 +100,12 @@ def enrich_data_frame(df, query_index, df_all_sectors, df_sector_brands, has_dma
         left_on=["brand_id"],
         right_on=["id"],
     ).drop(columns=["id"])
-    df['brand_name'] = df['brand_name'].str.replace('Floor & Décor', 'Floor & Decor')
+    df["brand_name"] = df["brand_name"].str.replace("Floor & Décor", "Floor & Decor")
     return df
 
-def sentiment_percentage_cols(df): 
-    df['positive_yes'] = df['positives'] * df['volume']/100
+
+def sentiment_percentage_cols(df):
+    df["positive_yes"] = df["positives"] * df["volume"] / 100
     df["negative_no"] = df["negatives"] * df["volume"] / 100
     return df
 
@@ -133,7 +134,7 @@ def output_status_message(message):
 
 
 ####################################3
-def usbank_dfs(path1,json_filename,session,start_date,end_date):
+def usbank_dfs(path1, json_filename, session, start_date, end_date):
     query_index = {}
     sectors_and_regions = []
     with open(path1 + json_filename, "r") as f:
@@ -141,45 +142,41 @@ def usbank_dfs(path1,json_filename,session,start_date,end_date):
         content = content.replace(
             "###start_date###", start_date.strftime("%Y-%m-%d")
         ).replace("###end_date###", end_date.strftime("%Y-%m-%d"))
-    
-    
+
     data = json.loads(content)
-    #index = 0
-    
-    
+    # index = 0
+
     response = run_analysis(session, data)
-    temp_frame = pd.read_csv(
-        io.StringIO(response.content.decode("utf-8"))
-    )
+    temp_frame = pd.read_csv(io.StringIO(response.content.decode("utf-8")))
     return temp_frame
+
 
 def rename_usbank_health_columns(df):
     df = df.rename(
-    columns={
-        "segment":"Demo",
-        "moving_average":"Moving Average",
-        "brand_name":"Brand"
+        columns={
+            "segment": "Demo",
+            "moving_average": "Moving Average",
+            "brand_name": "Brand",
         },
     )
     return df
-    
+
 
 def usbank_df_process(df):
     df = df.rename(
-    columns={
-        "query_id": "Demo",
-        "sector_id": "Sector Code",
-        "brand_id": "brand",
-        "positives": "positive_yes",
-        "negatives": "negative_no",
-        
-        "query_index": "Moving Average",
-        "analysis_id": "Report Name",
-        "custom_sector_uuid": "Sector Name",
-    },
+        columns={
+            "query_id": "Demo",
+            "sector_id": "Sector Code",
+            "brand_id": "brand",
+            "positives": "positive_yes",
+            "negatives": "negative_no",
+            "query_index": "Moving Average",
+            "analysis_id": "Report Name",
+            "custom_sector_uuid": "Sector Name",
+        },
     )
     df["Moving Average"] = 14
-    
+
     df["date"] = pd.to_datetime(df["date"])
     df["positive_yes"] = df["positive_yes"] * df["volume"] / 100
     df["negative_no"] = df["negative_no"] * df["volume"] / 100
@@ -195,52 +192,63 @@ def usbank_df_process(df):
             "negatives_neutrals",
         ]
     )
-    
-    df = df.rename(columns={"neutrals": "neutral",},)
-    
+
+    df = df.rename(
+        columns={
+            "neutrals": "neutral",
+        },
+    )
+
     df.fillna(0, inplace=True)
-    
+
     USB_COMP = "fba93d07-effb-4c05-9537-7fcbbf94efc4"
     USB_COMP_PEER = "acd7506f-04e5-4e36-9537-a04d4b5ef796"
-    
+
     df["Sector Name"].replace(
         {USB_COMP: "USB Comp", USB_COMP_PEER: "USB Peer Comp Set"}, inplace=True
     )
-    
-    df.loc[df["Sector Name"] == "USB Comp", ["Sector Code", "brand"]] = [-110, "USB Comp"]
-    df.loc[df["Sector Name"] == "USB Peer Comp Set", ["Sector Code", "brand"]] = [-126,"USB Peer Comp Set"]
-    
+
+    df.loc[df["Sector Name"] == "USB Comp", ["Sector Code", "brand"]] = [
+        -110,
+        "USB Comp",
+    ]
+    df.loc[df["Sector Name"] == "USB Peer Comp Set", ["Sector Code", "brand"]] = [
+        -126,
+        "USB Peer Comp Set",
+    ]
+
     df["Sector Name"].replace({0: "Consumer Banks"}, inplace=True)
-    
-    
+
     df["brand"].replace(
-        {12001: "Bank of America", 
-        12005: "Chase",     
-        12004: "BB & T", 
-        12009: "Fifth-Third", 
-        12006: "Citibank", 
-        12013: "KeyBank", 
-        12017: "PNC Bank", 
-        12018: "Regions Bank", 
-        12019: "SunTrust", 
-        12021: "US Bank",   
-        12024: "Wells Fargo", 
-        1001320: "TCF Bank"}, 
-        inplace=True
+        {
+            12001: "Bank of America",
+            12005: "Chase",
+            12004: "BB & T",
+            12009: "Fifth-Third",
+            12006: "Citibank",
+            12013: "KeyBank",
+            12017: "PNC Bank",
+            12018: "Regions Bank",
+            12019: "SunTrust",
+            12021: "US Bank",
+            12024: "Wells Fargo",
+            1001320: "TCF Bank",
+        },
+        inplace=True,
     )
-    
+
     ## aggregate_data
-    
+
     df["volume"] = pd.to_numeric(df["volume"])
     df["score"] = pd.to_numeric(df["score"])
     df["positive_yes"] = pd.to_numeric(df["positive_yes"])
     df["negative_no"] = pd.to_numeric(df["negative_no"])
     df["neutral"] = pd.to_numeric(df["neutral"])
     df["unaware"] = pd.to_numeric(df["unaware"])
-    
-    
+
     df["date"] = min(df["date"])
-    df = df.groupby(
+    df = (
+        df.groupby(
             [
                 "date",
                 "brand",
@@ -251,7 +259,8 @@ def usbank_df_process(df):
                 "Sector Name",
                 "Report Name",
             ]
-        ).agg(
+        )
+        .agg(
             {
                 "volume": "sum",
                 "score": "mean",
@@ -260,9 +269,10 @@ def usbank_df_process(df):
                 "neutral": "sum",
                 "unaware": "sum",
             }
-        ).reset_index()
-    
-    
+        )
+        .reset_index()
+    )
+
     df = df[
         [
             "date",
@@ -282,37 +292,6 @@ def usbank_df_process(df):
         ]
     ]
     return df
-    
-    
- 
-    
- 
-    
-####################################################################
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+####################################################################
