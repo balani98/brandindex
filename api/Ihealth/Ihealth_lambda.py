@@ -10,8 +10,7 @@ import boto3
 from BIConnector import *
 from helper import *
 import time
-
-# from datetime import datetime
+#from datetime import datetime
 wait_time_each_api_call_in_sec = 5
 max_queries_single_go = 50
 
@@ -38,13 +37,9 @@ def lambda_handler(event, context):
     output_status_message("BrandIndex API pull started")
     try:
         end_date = datetime.date.today() - datetime.timedelta(days=1)
-        start_date = end_date.replace(day=1)
-
-        # end_date = datetime.date(2023, 8, 31)
-        # start_date = datetime.date(2023, 8, 1)
-        # end_date = datetime.strptime(event['end_date'], "%Y/%m/%d").date()
-        # start_date = datetime.strptime(event['start_date'], "%Y/%m/%d").date()
-
+        start_date = datetime.date.today() - datetime.timedelta(days=7)
+        #end_date = datetime.strptime(event['end_date'], "%Y/%m/%d").date()
+        #start_date = datetime.strptime(event['start_date'], "%Y/%m/%d").date()
         output_status_message(
             "start date and end date for this run are {} and {}".format(
                 start_date, end_date
@@ -82,9 +77,8 @@ def lambda_handler(event, context):
                 brand = brand_data["name"]
                 is_roll_up = brand_data["roll_up"]
                 has_dma = brand_data["has_dma"]
-                has_sub_region = brand_data["has_sub_region"]  ########
-                volumn_percent = brand_data["volumn_percent"]  ########
-                brand_aggregation = brand_data["brand_aggregation"]  ########
+                has_sub_region = brand_data["has_sub_region"]   ########
+                volumn_percent = brand_data["volumn_percent"]   ########
 
                 query_moving_average = {}
                 sectors_and_regions = []
@@ -109,7 +103,7 @@ def lambda_handler(event, context):
                     content = content.replace(
                         "###start_date###", start_date.strftime("%Y-%m-%d")
                     ).replace("###end_date###", end_date.strftime("%Y-%m-%d"))
-
+                    
                 data = json.loads(content)
 
                 index = 0
@@ -155,66 +149,45 @@ def lambda_handler(event, context):
                     response_val = False
                     itr = 1
                     while itr <= 3:
-                        if int(str(response)[11:14]) == 200:
+                        if int(str(response)[11:14]) == 200:  
                             response_val = True
                             break
                         elif int(str(response)[11:14]) != 200:
                             time.sleep(60)
                             print("####### Response is not 200 run again ###########")
-                            response = run_analysis(session, data)
+                            response = run_analysis(session, data)  
                         else:
                             pass
                         itr += 1
                     if response_val != True:
                         raise Exception("Sorry, Max tries exceeded ")
-
+                
                     ##########################################
                     temp_frame = pd.read_csv(
                         io.StringIO(response.content.decode("utf-8"))
                     )
                     df = df.append(temp_frame)
-
+                
                 output_status_message(
                     "Successfully ran brand index analysis for the brand : {}".format(
                         brand
                     )
                 )
+
                 df = enrich_data_frame(
                     df, query_moving_average, df_all_sectors, df_sector_brands, has_dma
                 )
-                if brand_aggregation == "true":
-                    df_renamed = df.replace(
-                        to_replace=[
-                            "Wells Fargo",
-                            "Chase",
-                            "Citibank",
-                            "Bank of America",
-                            "Capital One Bank",
-                            "PNC Bank",
-                            "US Bank",
-                        ],
-                        value="Large Competitive Set",
-                        inplace=False,
-                    )
-                    df_renamed = df_renamed.replace(
-                        to_replace=["Fifth-Third", "Truist", "Regions Bank"],
-                        value="Small Competitive Set",
-                        inplace=False,
-                    )
-                    df_aggregated = aggregate_brands(df_renamed)
-                    df = pd.concat([df, df_aggregated])
-                    df = rename_usbank_health_columns(df)
 
                 if is_roll_up == "true":
                     df = aggregate_weekly(df)
 
                 if has_dma == "true":
                     df[["segment", "dma"]] = df["segment"].str.split("|", expand=True)
-
+                
                 if has_sub_region == "true":
                     df[["segment", "geo"]] = df["segment"].str.split("|", expand=True)
-
-                if volumn_percent == "true":
+                
+                if volumn_percent=="true":
                     df = sentiment_percentage_cols(df)
 
                 if execute_local:
@@ -233,8 +206,8 @@ def lambda_handler(event, context):
                 )
                 brands_executed_successfully = (
                     brands_executed_successfully + "," + brand
-                )
-
+                )                    
+                    
             ##############
             except Exception as e:
                 output_status_message(
@@ -242,7 +215,7 @@ def lambda_handler(event, context):
                 )
                 brands_failed_executing = brands_failed_executing + "," + brand_item
                 output_status_message(e)
-
+                
                 ################################
         output_status_message("BrandIndex API pull completed")
         response = (
@@ -257,4 +230,4 @@ def lambda_handler(event, context):
     return {"statusCode": 200, "body": json.dumps(response)}
 
 
-# lambda_handler(None, "local")
+#lambda_handler(None, "local")
