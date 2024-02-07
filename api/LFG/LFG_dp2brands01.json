@@ -1,0 +1,793 @@
+{
+  "data": {
+    "id": "LFGBrandIndexAnalysis",
+    "queries": [
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27021, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27024, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27009, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1000341, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1001310, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1001752, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1002056, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1003688, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1003755, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1004059, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25018, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25013, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25016, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25019, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25003, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25017, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25021, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25004, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25011, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25007, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27026, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27015, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1001136, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1001172, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1003515, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1003770, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1003770, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1005729, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "bixdemo_gender in [1, 2]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      }
+    ],
+    "scoring": "total"
+  },
+  "meta": { "version": "v1" }
+}
