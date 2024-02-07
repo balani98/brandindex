@@ -1,0 +1,4425 @@
+{
+  "data": {
+    "id": "Planetfitness2BrandIndexAnalysis",
+    "queries": [
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1003382, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1003380, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1003378, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1001795, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1003381, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1001796, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1001628, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1001186, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1003379, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1001187, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1006463, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|cluster5",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [
+          {
+            "expression": "inputzipdma_combined2 in [524, 506, 602, 623, 618, 528, 534, 504, 753, 807, 819, 511]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Atlanta",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [524]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Boston",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [506]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Chicago",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [602]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Dallas - Fort Worth",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [623]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Houston",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [618]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Miami - Fort Lauderdale",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [528]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Orlando - Daytona Beach - Melbourne",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [534]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Philadelphia",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [504]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Phoenix",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [753]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|San Francisco - Oakland - San Jose",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [807]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Seattle - Tacoma",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [819]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population|Washington Dc",
+        "entity": { "brand_id": 1006464, "region": "us", "sector_id": 35 },
+        "filters": [{ "expression": "inputzipdma_combined2 in [511]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      }
+    ],
+    "scoring": "total"
+  },
+  "meta": { "version": "v1" }
+}
