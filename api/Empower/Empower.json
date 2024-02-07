@@ -1,0 +1,2769 @@
+{
+  "data": {
+    "id": "EmpowerBrandIndexAnalysis",
+    "queries": [
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 27005, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 27008, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 1003755, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 27009, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 27017, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 25021, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 27021, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 1001310, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 27024, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 1002056, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 1000632, "region": "us", "sector_id": 27 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 27015, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 12024, "region": "us", "sector_id": 12 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 25013, "region": "us", "sector_id": 25 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Finance Industry",
+        "entity": { "brand_id": 1002780, "region": "us", "sector_id": 12 },
+        "filters": [{ "expression": "profiles_us__pdl_industrynaics in [9]" }],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 27005, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 27008, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 1003755, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 27009, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 27017, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 25021, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 27021, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 1001310, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 27024, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 1002056, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 1000632, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 27015, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 12024, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 25013, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $50K+",
+        "entity": { "brand_id": 1002780, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [5, 6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 27005, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 27008, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 1003755, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 27009, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 27017, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 25021, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 27021, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 1001310, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 27024, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 1002056, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 1000632, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 27015, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 12024, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 25013, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "IA $100K+",
+        "entity": { "brand_id": 1002780, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 27005, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 27008, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 1003755, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 27009, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 27017, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 25021, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 27021, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 1001310, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 27024, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 1002056, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 1000632, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 27015, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 12024, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 25013, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Male IA $100K+",
+        "entity": { "brand_id": 1002780, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": "profiles_us__pdl_gender in [1]  and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 27005, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 27008, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 1003755, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 27009, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 27017, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 25021, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 27021, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 1001310, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 27024, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 1002056, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 1000632, "region": "us", "sector_id": 27 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 27015, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 12024, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 25013, "region": "us", "sector_id": 25 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Female IA $100K+",
+        "entity": { "brand_id": 1002780, "region": "us", "sector_id": 12 },
+        "filters": [
+          {
+            "expression": " profiles_us__pdl_gender in [2] and profiles_us__pdl_totalassets_excl_home in [6, 7, 8, 9, 10, 11]"
+          }
+        ],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27005, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27008, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1003755, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27009, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27017, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25021, "region": "us", "sector_id": 25 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27021, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1001310, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27024, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1002056, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1000632, "region": "us", "sector_id": 27 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 27015, "region": "us", "sector_id": 25 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 12024, "region": "us", "sector_id": 12 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 25013, "region": "us", "sector_id": 25 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      },
+      {
+        "id": "Total Population",
+        "entity": { "brand_id": 1002780, "region": "us", "sector_id": 12 },
+        "filters": [],
+        "moving_average": 84,
+        "period": {
+          "end_date": { "date": "###end_date###" },
+          "start_date": { "date": "###start_date###" }
+        },
+        "metrics_score_types": {
+          "index": "net_score",
+          "buzz": "net_score",
+          "impression": "net_score",
+          "quality": "net_score",
+          "value": "net_score",
+          "reputation": "net_score",
+          "satisfaction": "net_score",
+          "recommend": "net_score",
+          "aided": "net_score",
+          "attention": "net_score",
+          "adaware": "net_score",
+          "wom": "net_score",
+          "consider": "net_score",
+          "likelybuy": "net_score",
+          "current_own": "net_score",
+          "former_own": "net_score"
+        }
+      }
+    ],
+    "scoring": "total"
+  },
+  "meta": { "version": "v1" }
+}
