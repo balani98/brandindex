@@ -1,6 +1,8 @@
-#import boto3
+# import boto3
 import pandas as pd
 import numpy as np
+
+
 def calculate_no_moving_avg_scores(df):
     df["date"] = min(df["date"])
 
@@ -34,18 +36,37 @@ def calculate_no_moving_avg_scores(df):
         )
         .reset_index()
     )
-  
-    df["score"] = np.where(((df['metric'] =="adaware") | (df["metric"] == "aided") 
-       |( df["metric"] == 'wom') | (df["metric"] == 'consider')
-       |( df["metric"] == 'likelybuy') | ( df["metric"] == 'former_own' ) 
-       | ( df["metric"] == 'current_own' )), (df["positive_yes"])*100/df["volume"] , df["score"])
- 
-    df["score"] = np.where(((df['metric'] =="impression") | (df["metric"] == "satisfaction") 
-        |( df["metric"] == 'quality') | (df["metric"] == 'recommend')
-        |( df["metric"] == 'value') | ( df["metric"] == 'buzz' ) 
-        | ( df["metric"] == 'reputation' )), (df["positive_yes"] - df["negative_no"])*100/df["volume"] , df["score"])
-     
+
+    df["score"] = np.where(
+        (
+            (df["metric"] == "adaware")
+            | (df["metric"] == "aided")
+            | (df["metric"] == "wom")
+            | (df["metric"] == "consider")
+            | (df["metric"] == "likelybuy")
+            | (df["metric"] == "former_own")
+            | (df["metric"] == "current_own")
+        ),
+        (df["positive_yes"]) * 100 / df["volume"],
+        df["score"],
+    )
+
+    df["score"] = np.where(
+        (
+            (df["metric"] == "impression")
+            | (df["metric"] == "satisfaction")
+            | (df["metric"] == "quality")
+            | (df["metric"] == "recommend")
+            | (df["metric"] == "value")
+            | (df["metric"] == "buzz")
+            | (df["metric"] == "reputation")
+        ),
+        (df["positive_yes"] - df["negative_no"]) * 100 / df["volume"],
+        df["score"],
+    )
+
     return df
+
 
 def aggregate_weekly(df):
     df["date"] = min(df["date"])
@@ -82,7 +103,12 @@ def aggregate_weekly(df):
 
 
 def enrich_data_frame(
-    df, query_moving_average, df_all_sectors, df_sector_brands, has_dma,moving_average=84
+    df,
+    query_moving_average,
+    df_all_sectors,
+    df_sector_brands,
+    has_dma,
+    moving_average=84,
 ):
     df.fillna(0, inplace=True)
     df = df.drop(columns=["custom_sector_uuid"])
@@ -112,8 +138,9 @@ def enrich_data_frame(
     ).drop(columns=["id"])
     return df
 
-def sentiment_percentage_cols(df): 
-    df['positive_yes'] = df['positives'] * df['volume']/100
+
+def sentiment_percentage_cols(df):
+    df["positive_yes"] = df["positives"] * df["volume"] / 100
     df["negative_no"] = df["negatives"] * df["volume"] / 100
     return df
 
@@ -139,4 +166,3 @@ def chunks(lst, n):
 
 def output_status_message(message):
     print(message)
-

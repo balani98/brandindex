@@ -6,16 +6,17 @@ import configparser
 import ast
 import pandas as pd
 import io
-#import boto3
+
+# import boto3
 from BIConnector import *
 from helper import *
 from Empower_no_moving_avg_V1 import *
 import time
 
 
-
 wait_time_each_api_call_in_sec = 30
 max_queries_single_go = 100
+
 
 def configurations_variable():
     config_json = {}
@@ -25,7 +26,8 @@ def configurations_variable():
     config_json["BRANDSINDEX_BRANDS"] = Config.get("BRANDS", "BRANDSINDEX_BRANDS")
     return config_json
 
-event=None
+
+event = None
 context = "local"
 response = ""
 brands_executed_successfully = ""
@@ -38,16 +40,14 @@ if context == "local":
 # Calling brandindex_api_data function. Provide currentdate-1 as function parameter.
 output_status_message("BrandIndex API pull started")
 
-#end_date = datetime.date.today() - datetime.timedelta(days=90)
-#start_date = datetime.date.today() - datetime.timedelta(days=96)
+# end_date = datetime.date.today() - datetime.timedelta(days=90)
+# start_date = datetime.date.today() - datetime.timedelta(days=96)
 
 end_date = datetime.date(2023, 12, 31)
 start_date = datetime.date(2023, 12, 1)
 
 output_status_message(
-    "start date and end date for this run are {} and {}".format(
-        start_date, end_date
-    )
+    "start date and end date for this run are {} and {}".format(start_date, end_date)
 )
 
 configs = configurations_variable()
@@ -75,7 +75,7 @@ for region in regions:
 df_all_sectors = pd.DataFrame(all_sectors)
 
 brands = ast.literal_eval(configs["BRANDSINDEX_BRANDS"])
-#s3 = boto3.client("s3")
+# s3 = boto3.client("s3")
 #########################
 for brand_item in brands:
     brand_data = json.loads(str(brand_item))
@@ -87,17 +87,15 @@ for brand_item in brands:
 query_index = {}
 sectors_and_regions = []
 
-output_status_message(
-    "Running brand index analysis for the brand : {}".format(brand)
-)
-path1="C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\BrandIndex Crossmedia\\BrandIndex_Empower\\"
+output_status_message("Running brand index analysis for the brand : {}".format(brand))
+path1 = "C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\BrandIndex Crossmedia\\BrandIndex_Empower\\"
 with open(path1 + "Empower.json", "r") as f:
     content = f.read()
     content = content.replace(
         "###start_date###", start_date.strftime("%Y-%m-%d")
     ).replace("###end_date###", end_date.strftime("%Y-%m-%d"))
 
-#93-101
+# 93-101
 
 data = json.loads(content)
 
@@ -121,9 +119,7 @@ sectors_and_regions = sectors_and_regions.drop_duplicates(
 sector_brands = []
 df_sector_brands = pd.DataFrame()
 for index, row in sectors_and_regions.iterrows():
-    output_status_message(
-        "Getting brands for sector {}".format(row["sector_id"])
-    )
+    output_status_message("Getting brands for sector {}".format(row["sector_id"]))
     sectrs = get_brands(session, row["sector_id"], row["region"])
     sec_data = sectrs.json()["data"]
     for attribute in sec_data:
@@ -141,28 +137,24 @@ for queries in chunks(total_queries, max_queries_single_go):
     time.sleep(wait_time_each_api_call_in_sec)
     data["data"]["queries"] = queries
     response = run_analysis(session, data)
-    
-    temp_frame = pd.read_csv(
-        io.StringIO(response.content.decode("utf-8"))
-    )
+
+    temp_frame = pd.read_csv(io.StringIO(response.content.decode("utf-8")))
     df = df = pd.concat([df, temp_frame])
 
 
 output_status_message(
-    "Successfully ran brand index analysis for the brand : {}".format(
-        brand
-    )
+    "Successfully ran brand index analysis for the brand : {}".format(brand)
 )
-print("deepanshu",df)
+print("deepanshu", df)
 df = enrich_data_frame(
-    df, query_index, df_all_sectors, df_sector_brands, has_dma, moving_average =84
+    df, query_index, df_all_sectors, df_sector_brands, has_dma, moving_average=84
 )
 
 if is_roll_up == "true":
-    df = aggregate_weekly(df)   
+    df = aggregate_weekly(df)
 if volume_percent == "true":
-    df = sentiment_percentage_cols(df)  
-df_no_moving_avg =  get_no_moving_average_scores()
+    df = sentiment_percentage_cols(df)
+df_no_moving_avg = get_no_moving_average_scores()
 df_integrated = pd.concat([df, df_no_moving_avg])
 
 
@@ -175,11 +167,6 @@ if execute_local:
         brand=brand, start_date=start_date, end_date=end_date
     )
     df_integrated.to_csv(path1 + "data\\" + outputname, index=False)
-    #df.to_csv(path1 +"Empower_wrapper_df.csv", index=False)
+    # df.to_csv(path1 +"Empower_wrapper_df.csv", index=False)
 else:
     csv_buffer = io.StringIO()
-
-
-
-
-

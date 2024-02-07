@@ -1,9 +1,9 @@
-#import boto3
+# import boto3
 import pandas as pd
 
 
 def aggregate_weekly(df):
-    print('deepanshu',df)
+    print("deepanshu", df)
     df["date"] = min(df["date"])
 
     df = (
@@ -68,8 +68,9 @@ def enrich_data_frame(
     ).drop(columns=["id"])
     return df
 
-def sentiment_percentage_cols(df): 
-    df['positive_yes'] = df['positives'] * df['volume']/100
+
+def sentiment_percentage_cols(df):
+    df["positive_yes"] = df["positives"] * df["volume"] / 100
     df["negative_no"] = df["negatives"] * df["volume"] / 100
     return df
 
