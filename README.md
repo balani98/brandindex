@@ -1,5 +1,7 @@
 ![logo](https://camo.githubusercontent.com/205f6f35396a351dffbc19f001e60adcec3065c6e8a527134d86f969a3163a21/68747470733a2f2f64323564323530367366623934732e636c6f756466726f6e742e6e65742f722f37362f5947562d4272616e64496e6465782e706e67)
 
+### YouGov BrandIndex API
+For detailed documentation : [Refer Here](./BrandIndex.md)
 ## Folder structure
 
 - /**api** - contains all the code that downloads data from BI API
