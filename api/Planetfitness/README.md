@@ -1,0 +1,2 @@
+### Planetfitness API connector description
+Planetfitness API connector is little different from other brands. Here data has to be pulled for both 4 moving and 10 moving averages and both of them have different audiences .After pulling up the data from both for Moving averages , both the datasets have to be integrated . 
