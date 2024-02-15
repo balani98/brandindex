@@ -1,4 +1,4 @@
-![logo](https://camo.githubusercontent.com/205f6f35396a351dffbc19f001e60adcec3065c6e8a527134d86f969a3163a21/68747470733a2f2f64323564323530367366623934732e636c6f756466726f6e742e6e65742f722f37362f5947562d4272616e64496e6465782e706e67)
+![logo](https://api.brandindex.com/v1/static/img/logo.png)
 
 ### YouGov BrandIndex API
 For detailed documentation : [Refer Here](./BrandIndex.md)
@@ -54,6 +54,7 @@ Techical details
 - S3 bucket         : **rb.product.finished**
 - S3 directory      : **s3://rb.product.finished/BI_USBankHealth/**
 - API               : https://api.brandindex.com/v1/
+- Detailed Documentation : [Refer Here](./api/USB_Health/README.md)
 
 
 ### LFG2
@@ -73,6 +74,8 @@ Techical details
 - S3 bucket         : **rb.product.finished**
 - S3 directory      : **s3://rb.product.finished/BI_PlanetFitness/**
 - API               : https://api.brandindex.com/v1/
+- Detailed Documentation : [Refer Here](./api/Planetfitness/README.md)
+
 
 ### Planetfitness_DMA
 - EC2 : **i-0107e1a7411cf324c (BrandIndex_monthly_Planetfitness2)**
@@ -91,6 +94,7 @@ Techical details
 - S3 bucket         : **rb.product.finished**
 - S3 directory      : **s3://rb.product.finished/BI_Empower/**
 - API               : https://api.brandindex.com/v1/
+- Detailed Documentation : [Refer Here](./api/Empower/README.md)
 
 ### LL Flooring
 - Lambda function : **XM_brand_index_API_data_pull_LLF**
