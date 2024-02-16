@@ -85,6 +85,7 @@ Techical details
 - S3 bucket         : **rb.product.finished**
 - S3 directory      : **s3://rb.product.finished/BI_PlanetFitness_DMA/**
 - API               : https://api.brandindex.com/v1/
+- Detailed Documentation : [Refer Here](./api/Planetfitness_DMA/README.md)
 
 ### Empower
 - Lambda function : **XM_brand_index_API_data_pull_Monthly**
