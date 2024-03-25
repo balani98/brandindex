@@ -127,15 +127,9 @@ def lambda_handler(event, context):
         df3 = LFG_dfs("LFG_dp2brands03")
         print("3 done")
         print("This is check 3")
-<<<<<<< HEAD
         
         df = pd.concat([df1,df3])
         #df=df1
-=======
-
-        df = pd.concat([df1, df2, df3])
-        # df=df1
->>>>>>> f98ffe3e10dd7e0e1e16fad60047b127f7290a2d
         print(df.columns)
         print(df1.shape)
         print(df2.shape)
@@ -196,7 +190,6 @@ def lambda_handler(event, context):
         df.loc[df["Sector Name"] == "LFG-Tier 3", "Sector Code"] = -179
         df.loc[df["Sector Name"] == "LFG-Tier 2", "Sector Code"] = -178
         df.loc[df["Sector Name"] == "LFG-Tier 1", "Sector Code"] = -177
-<<<<<<< HEAD
         
         df.loc[(df["brand_id"]  == 27009) | (df["brand_id"] == 27024)
                | (df["brand_id"]  == 1001752) | (df["brand_id"] == 1002056)
@@ -226,64 +219,12 @@ def lambda_handler(event, context):
             1003688: "Lincoln Financial",
             27021: "T. Rowe Price",           
             1003755: "Empower Retirement"
-=======
-
-        df.loc[
-            (df["brand_id"] == 27009)
-            | (df["brand_id"] == 27024)
-            | (df["brand_id"] == 1001752)
-            | (df["brand_id"] == 1002056)
-            | (df["brand_id"] == 1000341)
-            | (df["brand_id"] == 1001310)
-            | (df["brand_id"] == 1003688)
-            | (df["brand_id"] == 1004059)
-            | (df["brand_id"] == 27021)
-            | (df["brand_id"] == 1003755),
-            "Sector Code",
-        ] = 27
-
-        df.loc[
-            (df["brand_id"] == 27026)
-            | (df["brand_id"] == 25004)
-            | (df["brand_id"] == 25011)
-            | (df["brand_id"] == 25013)
-            | (df["brand_id"] == 25016)
-            | (df["brand_id"] == 25018)
-            | (df["brand_id"] == 25019)
-            | (df["brand_id"] == 1001172)
-            | (df["brand_id"] == 1003515)
-            | (df["brand_id"] == 25017)
-            | (df["brand_id"] == 25021)
-            | (df["brand_id"] == 25021)
-            | (df["brand_id"] == 1003770)
-            | (df["brand_id"] == 27015)
-            | (df["brand_id"] == 25003)
-            | (df["brand_id"] == 25007)
-            | (df["brand_id"] == 1001136)
-            | (df["brand_id"] == 1005729),
-            "Sector Code",
-        ] = 25
-        ##27
-        df["brand_id"].replace(
-            {
-                27009: "Fidelity",
-                27024: "Vanguard",
-                1001752: "Nationwide",
-                1002056: "Voya Financial",
-                1000341: "Prudential",
-                1001310: "TIAA",
-                1003688: "Lincoln Financial",
-                1004059: "Brighthouse Financial",
-                27021: "T. Rowe Price",
-                1003755: "Empower Retirement",
->>>>>>> f98ffe3e10dd7e0e1e16fad60047b127f7290a2d
             },
             inplace=True,
         )
         ##25
         df["brand_id"].replace(
             {
-<<<<<<< HEAD
         	27026:  "Guardian",
             25004:  "AIG",
             25011:"The Hartford",
@@ -303,27 +244,6 @@ def lambda_handler(event, context):
             1005729: "Corebridge Financial" 
         	}, 
             inplace=True
-=======
-                27026: "Guardian",
-                25004: "AIG",
-                25011: "The Hartford",
-                25013: "John Hancock",
-                25016: "MetLife",
-                25018: "New York Life",
-                25019: "Northwestern Mutual",
-                1001172: "Pacific Life",
-                1003515: "Transamerica",
-                25017: "Nationwide",
-                25021: "Prudential",
-                1003770: "Lincoln Financial",
-                27015: "Mass Mutual",
-                25003: "Aflac",
-                25007: "Cigna",
-                1001136: "Athene",
-                1005729: "Corebridge Financial",
-            },
-            inplace=True,
->>>>>>> f98ffe3e10dd7e0e1e16fad60047b127f7290a2d
         )
         df.loc[df["Sector Code"] == 27, "Sector Name"] = (
             "Financial Services-Investment Advisors"
@@ -339,7 +259,6 @@ def lambda_handler(event, context):
             df["positive_yes"] + df["negative_no"] + df["neutral"]
         )
         df.columns
-<<<<<<< HEAD
         df.drop(columns=["region","sector_id"], inplace=True)
         
         df = df.loc[~((df['brand'] =="Aflac") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
@@ -365,125 +284,6 @@ def lambda_handler(event, context):
         df = df.loc[~((df['brand'] =="TIAA") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="Vanguard") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="Voya Financial") &  (df['Sector Name'] =="Insurance"))]
-=======
-        df.drop(columns=["region", "sector_id"], inplace=True)
-
-        df = df.loc[
-            ~(
-                (df["brand"] == "Aflac")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "AIG")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Athene")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Cigna")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Guardian")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "John Hancock")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Mass Mutual")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "MetLife")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "New York Life")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Northwestern Mutual")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Pacific Life")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "The Hartford")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Transamerica")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Corebridge Financial")
-                & (df["Sector Name"] == "Financial Services-Investment Advisors")
-            )
-        ]
-
-        df = df.loc[
-            ~(
-                (df["brand"] == "Brighthouse Financial")
-                & (df["Sector Name"] == "Insurance")
-            )
-        ]
-        df = df.loc[
-            ~(
-                (df["brand"] == "Empower Retirement")
-                & (df["Sector Name"] == "Insurance")
-            )
-        ]
-        df = df.loc[~((df["brand"] == "Fidelity") & (df["Sector Name"] == "Insurance"))]
-        df = df.loc[
-            ~((df["brand"] == "Lincoln Financial") & (df["Sector Name"] == "Insurance"))
-        ]
-        df = df.loc[
-            ~((df["brand"] == "Nationwide") & (df["Sector Name"] == "Insurance"))
-        ]
-        df = df.loc[
-            ~((df["brand"] == "Prudential") & (df["Sector Name"] == "Insurance"))
-        ]
-        df = df.loc[
-            ~((df["brand"] == "T. Rowe Price") & (df["Sector Name"] == "Insurance"))
-        ]
-        df = df.loc[~((df["brand"] == "TIAA") & (df["Sector Name"] == "Insurance"))]
-        df = df.loc[~((df["brand"] == "Vanguard") & (df["Sector Name"] == "Insurance"))]
-        df = df.loc[
-            ~((df["brand"] == "Voya Financial") & (df["Sector Name"] == "Insurance"))
-        ]
->>>>>>> f98ffe3e10dd7e0e1e16fad60047b127f7290a2d
 
         df["date"] = min(df["date"])
         df = (
@@ -508,8 +308,8 @@ def lambda_handler(event, context):
                     "neutral": "sum",
                     "unaware": "sum",
                 }
-<<<<<<< HEAD
             ).reset_index()
+        )
         df["tier_category"] = "N/A"
         df["tier_category"] = np.where(
             (df["Demo"] != "Total Population"), "N/A", df["tier_category"]
@@ -599,30 +399,6 @@ def lambda_handler(event, context):
         df = df[['date','brand','metric','volume', 'score',  'positive_yes',
                'negative_no', 'neutral',"unaware", 'Demo', 'Moving Average','Sector Code', 'Sector Name',"tier_category",
                'Report Name']]
-=======
-            )
-            .reset_index()
-        )
-
-        df = df[
-            [
-                "date",
-                "brand",
-                "metric",
-                "volume",
-                "score",
-                "positive_yes",
-                "negative_no",
-                "neutral",
-                "unaware",
-                "Demo",
-                "Moving Average",
-                "Sector Code",
-                "Sector Name",
-                "Report Name",
-            ]
-        ]
->>>>>>> f98ffe3e10dd7e0e1e16fad60047b127f7290a2d
         print("here is lfg2 brand got completed")
         csv_buffer = io.StringIO()
         df.to_csv(csv_buffer, index=False)
