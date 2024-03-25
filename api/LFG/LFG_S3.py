@@ -22,6 +22,7 @@ from BIConnector import *
 from helper import *
 import time
 from datetime import timedelta, date
+import numpy as np
 
 wait_time_each_api_call_in_sec = 5
 max_queries_single_go = 50
@@ -51,8 +52,8 @@ def lambda_handler(event, context):
         end_date = datetime.date.today() - datetime.timedelta(days=2)
         start_date = end_date.replace(day=1) 
        
-        #end_date = datetime.date(2024, 1, 31)
-        #start_date = datetime.date(2024, 1, 1)
+        #end_date = datetime.date(2024, 2, 29)
+        #start_date = datetime.date(2024, 2, 1)
         
         output_status_message(
             "start date and end date for this run are {} and {}".format(
@@ -61,8 +62,8 @@ def lambda_handler(event, context):
         configs = configurations_variable()
         
         if execute_local:
-            username = "YGAPI@xmedia.com"
-            password = "YouGov123"
+            username = ""
+            password = ""
         else:
             #username = os.environ["email"]
             #password = os.environ["password"]
@@ -129,7 +130,7 @@ def lambda_handler(event, context):
         print('3 done')
         print("This is check 3")
         
-        df = pd.concat([df1,df2,df3])
+        df = pd.concat([df1,df3])
         #df=df1
         print(df.columns)
         print(df1.shape)
@@ -289,9 +290,94 @@ def lambda_handler(event, context):
                     "unaware": "sum",
                 }
             ).reset_index()
-        
+        df["tier_category"] = "N/A"
+        df["tier_category"] = np.where(
+            (df["Demo"] != "Total Population"), "N/A", df["tier_category"]
+        )
+        df["tier_category"] = np.where(
+            (df["Demo"] == "Total Population") ,
+              #& (df["metric"] != "aided"),
+             "N/A",
+             df["tier_category"],
+            )
+        df["tier_category"] = np.where(
+            (df["metric"] == "aided")
+            & (df["Demo"] == "Total Population")
+            & (df["score"] >= 60.0),
+            "Tier 1",
+            df["tier_category"],
+            )
+        df["tier_category"] = np.where(
+            (df["metric"] == "aided")
+            & (df["Demo"] == "Total Population")
+            & ((df["score"] >= 30.0) & (df["score"] < 60.0)),
+            "Tier 2",
+            df["tier_category"],
+            )
+        df["tier_category"] = np.where(
+            (df["metric"] == "aided")
+            & (df["Demo"] == "Total Population")
+            & (df["score"] < 30.0),
+            "Tier 3",
+            df["tier_category"],
+            )
+        # brands_to_be_updated_with_tier = ['AIG', 'Aflac', 'Cigna', 'Empower Retirement', 'Fidelity', 'Guardian', 'John Hancock', 'Mass Mutual', 'MetLife', 'Nationwide', 'New York Life', 'Northwestern Mutual', 'Pacific Life', 'Prudential','T. Rowe Price','The Hartford','TIAA','Transamerica','Vanguard','Voya Financial']
+        brands_to_be_updated_with_tier = df["brand"].unique()
+        for brand_tier in brands_to_be_updated_with_tier:
+            update_condition = (
+            (df["brand"] == brand_tier)
+            #  & (df["metric"] != "aided")
+            #  & (df["Demo"] == "Total Population")
+            )
+            retrieve_condition = (
+            (df["brand"] == brand_tier)
+            & (df["metric"] == "aided")
+            & (df["Demo"] == "Total Population")
+            )
+            # Retrieve the tier_category value based on the retrieve_condition
+            tier_category_value = (
+                df.loc[retrieve_condition, "tier_category"].values[0]
+                if df.loc[retrieve_condition].shape[0]
+                else np.nan
+            )
+            # Update 'tier_category' with tier_category_value where update_condition is True
+            df["tier_category"] = np.where(
+                update_condition, tier_category_value, df["tier_category"]
+            )
+        # making the new sector  category  for aggregation accross brands
+        # brand averaging 
+        df_average_all_brands = (
+            df.groupby(
+            [
+            "date",
+            "Demo",
+            "metric",
+            "Moving Average",
+            "Report Name",
+            ]
+        )
+        .agg(
+            {
+                "volume": "sum",
+                "score": "mean",
+                "positive_yes": "sum",
+                "negative_no": "sum",
+                "neutral": "sum",
+                "unaware": "sum",
+            }
+        )
+        .reset_index()
+    )
+        # filtering the averages which are required for demo
+        df_average_all_brands = df_average_all_brands.loc[
+            ((df_average_all_brands["Demo"] == "Total Population") | (df_average_all_brands["Demo"] == "Affluent Seekers 50-69") | (df_average_all_brands["Demo"] == "Affluent Aspirers 30-49"))
+        ]
+        df_average_all_brands["brand"] = "category"
+        df_average_all_brands["Sector Name"] = "category"
+        df_average_all_brands["tier_category"] = "N/A"
+        df = pd.concat([df, df_average_all_brands])
         df = df[['date','brand','metric','volume', 'score',  'positive_yes',
-               'negative_no', 'neutral',"unaware", 'Demo', 'Moving Average','Sector Code', 'Sector Name',
+               'negative_no', 'neutral',"unaware", 'Demo', 'Moving Average','Sector Code', 'Sector Name',"tier_category",
                'Report Name']]
         print("here is lfg2 brand got completed")
         csv_buffer = io.StringIO()

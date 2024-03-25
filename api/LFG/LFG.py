@@ -50,8 +50,8 @@ try:
     end_date = datetime.date.today() - datetime.timedelta(days=2)
     start_date = end_date.replace(day=1)
 
-    end_date = datetime.date(2023, 12, 31)
-    start_date = datetime.date(2023, 12, 1)
+    end_date = datetime.date(2024, 1, 31)
+    start_date = datetime.date(2024, 1, 1)
 
     output_status_message(
         "start date and end date for this run are {} and {}".format(
@@ -62,8 +62,8 @@ try:
     configs = configurations_variable()
 
     if execute_local:
-        username = "YGAPI@xmedia.com"
-        password = "YouGov123"
+        username = ""
+        password = ""
     else:
         # username = os.environ["email"]
         # password = os.environ["password"]
@@ -98,7 +98,7 @@ try:
     output_status_message(
         "Running brand index analysis for the brand : {}".format(brand)
     )
-    path1 = "C:\\Users\\deepanshu.balani\\OneDrive - Nabler Web Solutions Pvt. Ltd\\Documents\\BrandIndex Crossmedia\\XMedia\\BrandIndex_LFG\\LFG_datapipeline2\\"
+    path1 = "C:\\BrandIndex\\xm-brandindex-v1\\api\\LFG\\"
 
     def LFG_dfs(json_filename):
         query_index = {}
@@ -196,7 +196,6 @@ try:
         | (df["brand_id"] == 1000341)
         | (df["brand_id"] == 1001310)
         | (df["brand_id"] == 1003688)
-        | (df["brand_id"] == 1004059)
         | (df["brand_id"] == 27021)
         | (df["brand_id"] == 1003755),
         "Sector Code",
@@ -220,6 +219,7 @@ try:
         | (df["brand_id"] == 25003)
         | (df["brand_id"] == 25007)
         | (df["brand_id"] == 1001136)
+        | (df["brand_id"] == 1004059)
         | (df["brand_id"] == 1005729),
         "Sector Code",
     ] = 25
@@ -233,7 +233,6 @@ try:
             1000341: "Prudential",
             1001310: "TIAA",
             1003688: "Lincoln Financial",
-            1004059: "Brighthouse Financial",
             27021: "T. Rowe Price",
             1003755: "Empower Retirement",
         },
@@ -257,7 +256,7 @@ try:
             27015: "Mass Mutual",
             25003: "Aflac",
             25007: "Cigna",
-            1001136: "Athene",
+            1004059: "Brighthouse Financial",
             1005729: "Corebridge Financial",
         },
         inplace=True,
@@ -292,7 +291,7 @@ try:
     ]
     df = df.loc[
         ~(
-            (df["brand"] == "Athene")
+            (df["brand"] == "Nationwide")
             & (df["Sector Name"] == "Financial Services-Investment Advisors")
         )
     ]
@@ -362,10 +361,6 @@ try:
             & (df["Sector Name"] == "Financial Services-Investment Advisors")
         )
     ]
-
-    df = df.loc[
-        ~((df["brand"] == "Brighthouse Financial") & (df["Sector Name"] == "Insurance"))
-    ]
     df = df.loc[
         ~((df["brand"] == "Empower Retirement") & (df["Sector Name"] == "Insurance"))
     ]
@@ -373,7 +368,7 @@ try:
     df = df.loc[
         ~((df["brand"] == "Lincoln Financial") & (df["Sector Name"] == "Insurance"))
     ]
-    df = df.loc[~((df["brand"] == "Nationwide") & (df["Sector Name"] == "Insurance"))]
+    # df = df.loc[~((df["brand"] == "Nationwide") & (df["Sector Name"] == "Insurance"))]
     df = df.loc[~((df["brand"] == "Prudential") & (df["Sector Name"] == "Insurance"))]
     df = df.loc[
         ~((df["brand"] == "T. Rowe Price") & (df["Sector Name"] == "Insurance"))
@@ -390,7 +385,8 @@ try:
     # df5['Sector Code'] = ''
 
     # df = pd.concat([df,df4, df5])
-
+    # seting up the tier categories 
+    # month averaging
     df["date"] = min(df["date"])
     df = (
         df.groupby(
@@ -423,7 +419,8 @@ try:
         (df["Demo"] != "Total Population"), "N/A", df["tier_category"]
     )
     df["tier_category"] = np.where(
-        (df["Demo"] == "Total Population") & (df["metric"] != "aided"),
+        (df["Demo"] == "Total Population") ,
+        #& (df["metric"] != "aided"),
         "N/A",
         df["tier_category"],
     )
@@ -453,8 +450,8 @@ try:
     for brand_tier in brands_to_be_updated_with_tier:
         update_condition = (
             (df["brand"] == brand_tier)
-            & (df["metric"] != "aided")
-            & (df["Demo"] == "Total Population")
+          #  & (df["metric"] != "aided")
+          #  & (df["Demo"] == "Total Population")
         )
         retrieve_condition = (
             (df["brand"] == brand_tier)
@@ -472,7 +469,37 @@ try:
             update_condition, tier_category_value, df["tier_category"]
         )
         # making the new sector  category  for aggregation accross brands
-
+    # brand averaging 
+    df_average_all_brands = (
+        df.groupby(
+            [
+                "date",
+                "Demo",
+                "metric",
+                "Moving Average",
+                "Report Name",
+            ]
+        )
+        .agg(
+            {
+                "volume": "sum",
+                "score": "mean",
+                "positive_yes": "sum",
+                "negative_no": "sum",
+                "neutral": "sum",
+                "unaware": "sum",
+            }
+        )
+        .reset_index()
+    )
+    # filtering the averages which are required for demo
+    df_average_all_brands = df_average_all_brands.loc[
+        ((df_average_all_brands["Demo"] == "Total Population") | (df_average_all_brands["Demo"] == "Affluent Seekers 50-69") | (df_average_all_brands["Demo"] == "Affluent Aspirers 30-49"))
+    ]
+    df_average_all_brands["brand"] = "category"
+    df_average_all_brands["Sector Name"] = "category"
+    df_average_all_brands["tier_category"] = "N/A"
+    df = pd.concat([df, df_average_all_brands])
     df = df[
         [
             "date",
