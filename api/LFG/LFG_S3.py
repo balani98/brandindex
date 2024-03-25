@@ -176,7 +176,7 @@ def lambda_handler(event, context):
         df.loc[(df["brand_id"]  == 27009) | (df["brand_id"] == 27024)
                | (df["brand_id"]  == 1001752) | (df["brand_id"] == 1002056)
                | (df["brand_id"]  == 1000341) | (df["brand_id"] == 1001310)
-               | (df["brand_id"]  == 1003688) | (df["brand_id"] == 1004059)
+               | (df["brand_id"]  == 1003688) 
                | (df["brand_id"]  == 27021) | (df["brand_id"] == 1003755), "Sector Code"] = 27
         
         df.loc[(df["brand_id"]  == 27026) | (df["brand_id"] == 25004)
@@ -186,7 +186,7 @@ def lambda_handler(event, context):
                | (df["brand_id"]  == 1003515) | (df["brand_id"] == 25017)
                | (df["brand_id"]  == 25021) | (df["brand_id"] == 25021)
                | (df["brand_id"]  == 1003770) | (df["brand_id"] == 27015)
-               
+               | (df["brand_id"] == 1004059)
                | (df["brand_id"]  == 25003) | (df["brand_id"] == 25007)
                | (df["brand_id"]  == 1001136)| (df["brand_id"]  == 1005729) , "Sector Code"] = 25
         ##27	
@@ -199,7 +199,6 @@ def lambda_handler(event, context):
             1000341: "Prudential",
             1001310: "TIAA",
             1003688: "Lincoln Financial",
-            1004059: "Brighthouse Financial",
             27021: "T. Rowe Price",           
             1003755: "Empower Retirement"
             },
@@ -223,7 +222,7 @@ def lambda_handler(event, context):
             27015:"Mass Mutual",
             25003:"Aflac",
             25007:  "Cigna",
-            1001136:"Athene",  
+            1004059: "Brighthouse Financial",
             1005729: "Corebridge Financial" 
         	}, 
             inplace=True
@@ -244,7 +243,7 @@ def lambda_handler(event, context):
         
         df = df.loc[~((df['brand'] =="Aflac") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
         df = df.loc[~((df['brand'] =="AIG") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
-        df = df.loc[~((df['brand'] =="Athene") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
+        df = df.loc[~((df['brand'] =="Nationwide") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
         df = df.loc[~((df['brand'] =="Cigna") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
         df = df.loc[~((df['brand'] =="Guardian") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
         df = df.loc[~((df['brand'] =="John Hancock") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
@@ -257,11 +256,9 @@ def lambda_handler(event, context):
         df = df.loc[~((df['brand'] =="Transamerica") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
         df = df.loc[~((df['brand'] =="Corebridge Financial") &  (df['Sector Name'] =="Financial Services-Investment Advisors"))]
         
-        df = df.loc[~((df['brand'] =="Brighthouse Financial") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="Empower Retirement") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="Fidelity") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="Lincoln Financial") &  (df['Sector Name'] =="Insurance"))]
-        df = df.loc[~((df['brand'] =="Nationwide") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="Prudential") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="T. Rowe Price") &  (df['Sector Name'] =="Insurance"))]
         df = df.loc[~((df['brand'] =="TIAA") &  (df['Sector Name'] =="Insurance"))]
